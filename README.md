@@ -157,4 +157,11 @@ djangoTimepicker
 
 - Tips: 该项目引用 [datatimepicker](https://github.com/xdan/datetimepicker), [点击查看更多配置](https://xdsoft.net/jqplugins/datetimepicker/)
 
-- 实例展示
+**实例展示**
+- 时间格式：'YmdHis': 年月日时分秒
+
+![image](https://github.com/DanielZhui/django-time-picker/blob/master/display/created.jpg)
+
+- 时间格式：'YmdHis': 年-月-日 时-分-秒
+
+![image](https://github.com/DanielZhui/django-time-picker/blob/master/display/createds.jpg)
