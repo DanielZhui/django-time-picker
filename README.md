@@ -162,6 +162,6 @@ djangoTimepicker
 
 ![image](https://github.com/DanielZhui/django-time-picker/blob/master/display/created.jpg)
 
-- 时间格式：'YmdHis': 年-月-日 时-分-秒
+- 时间格式：'Y-m-d H-i-s': 年-月-日 时-分-秒
 
 ![image](https://github.com/DanielZhui/django-time-picker/blob/master/display/createds.jpg)
