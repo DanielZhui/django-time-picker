@@ -10,7 +10,7 @@ with open('README.md', 'rb') as f:
 
 setup(
     name='djangoTimepicker',
-    version='1.0.1',
+    version='1.0.2',
     description='django timestamp picker',
     long_description=readme,
     packages=['djangoTimepicker'],

@@ -40,16 +40,28 @@ djangoTimepicker
     class PersonForm(forms.ModelForm):
         class Meta:
             model = Person
+
             fields = ('__all__')
+
             widgets = {
             'createdAt': DjangoTimePickerInput(timeFormat='YmdHis', language='zh')
             }
 
+`app` `xadmin.py` 中导入 `PersonForm`
 
+    import xadmin
+
+    import .forms import PersonForm
+
+    @xadmin.sites.register(User)
+
+    class PersonModelAdmin(object):
+    
+        form = PersonForm
 
 支持的时间格式(timeFormat)：
     
-    Y:年 m:月 d:日 H:时 i:分 s:秒
+    Y:年 m:月 d:日  H:时 i:分 s:秒
 
 支持的语言(language)：
 
